@@ -109,15 +109,3 @@ Ocorre ao buscar, atualizar ou deletar um ID que não existe na base:
   "message": "Usuário com ID 999 não encontrado."
 }
 ```
-
----
-
-### Como atualizar no GitHub depois de colar no VS Code
-
-Depois que você colar no arquivo `README.md` e salvar no VS Code, abra o terminal e rode estes 3 comandos rápidos para subir a versão completa:
-
-```bash
-git add README.md
-git commit -m "Documentacao completa do README"
-git push origin main
-```
